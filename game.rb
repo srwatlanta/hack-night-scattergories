@@ -1,12 +1,18 @@
 class Game
+    
+    alphabet_array = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "W"]
 
-    alphabet_array = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
+    def category
+    end
 
     def list
     end
 
-    def category
+    def letter
+        alphabet_array.sample
     end
+
+
 
 
 
