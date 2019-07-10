@@ -6,8 +6,6 @@ require "pp"
 json = File.read("./data/categories.json")
 obj = JSON.parse(json)
 
-pp obj
-
 # puts "hello"
 
 class Game
