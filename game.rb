@@ -1,21 +1,21 @@
-#!/usr/bin/ruby
-# require "rubygems"
+
 require "json"
 require "pp"
-
-json = File.read("./data/categories.json")
-obj = JSON.parse(json)
-
-# puts "hello"
-
 class Game
-  alphabet_array = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
+    
+    alphabet_array = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "W"]
 
-  def list
-  end
+    def category
+    end
 
-  def category
-  end
+    def list
+    end
+
+    def letter
+        alphabet_array.sample
+    end
+
+
 end
 
 # generate a list from the json file sampling 12 options
