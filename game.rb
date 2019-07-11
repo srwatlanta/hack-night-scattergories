@@ -55,6 +55,20 @@ round_23 = round_split[23]
 round_24 = round_split[24]
 round_25 = round_split[25]
 
+def timer
+  minutes = 3
+  start_time = Time.now
+  seconds = minutes * 60
+  end_time = start_time + seconds
+  while Time.now < end_time
+  end
+  system(%Q{say -v "Vick" "Pencils down. Time is up."})
+end
+
+def rules
+  puts "Begin each round by rolling the letter die, and start the timer. If you roll a letter that had already been rolled during this game, re-roll. Players attempt to create an answer that begins with the letter on the die for each of the categories on their list. Answers must begin with the letter on the Scattergories die."
+end
+
 # pp letter
 
 # generate a list from the json file sampling 12 options √
